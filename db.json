@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Abdelfattah",
+      "city": "Menofia"
+    },
+    {
+      "id": 2,
+      "name": "Ahmed",
+      "city": "Cairo"
+    },
+    {
+      "id": 3,
+      "name": "Mohamed",
+      "city": "Alexandria"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
