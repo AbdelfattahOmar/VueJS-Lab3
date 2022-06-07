@@ -1,8 +1,5 @@
 <template>
   <div class="container my-2">
-    <div class="row">
-      <HeaderComponent />
-    </div>
       <DynamicComponent />
 
     <div class="row">

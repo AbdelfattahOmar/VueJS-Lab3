@@ -9,5 +9,11 @@
       <span class="h5">Email:</span>
       <p>abdelfattahomar66@gmail.com</p>
     </div>
-  </div>
+</div>  
 </template>
+
+<script>
+export default {
+
+}
+</script>

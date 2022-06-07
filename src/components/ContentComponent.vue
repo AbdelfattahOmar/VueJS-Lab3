@@ -15,7 +15,11 @@
       <tbody>
         <tr v-for="student in students" :key="student.id">
           <td>{{ student.id }}</td>
-          <td>{{ student.name }}</td>
+          <td>
+            <router-link :to="'/studentdetails/'+student.id">{{
+              student.name
+            }}</router-link>
+          </td>
           <td>{{ student.city }}</td>
           <td>
             <button
